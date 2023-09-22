@@ -37,10 +37,10 @@ def play(a,b):
             d1 = bet * 2
             d2 = bet + 4
 
-            print("\n\nHere are your cards:\n\nCard 1: %d,\n\nCard 2: %d", %c1 , %c2)
+            print("\n\nHere are your cards:\n\nCard 1: %d,\n\nCard 2: %d")
 
         # if user enters 1 or 2
-        elif knowledge == '2':
+        if knowledge == '2':
              print('\n\nHere is how to play the game:\n\n1. Place a bet between $1 all the way up to $10,\n2. Dealer places a bet aswell,\n3. You will have 2 cards including the dealer,\n4. Each card will have a set of digits,\ni5. If your cards combined are greater in value than the cards of the dealer then you win')
              print('\n\nContinue?\n\n[1]> Yes , [2]> No\n')
              conf = input()
